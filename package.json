@@ -1,0 +1,30 @@
+{
+  "name": "follow",
+  "version": "0.0.1",
+  "description": "follows make easy to navigate through hyperlinked objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony --harmony_proxies test/* --require co-mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pmariano/follow.git"
+  },
+  "keywords": [
+    "rest",
+    "hyperlinks",
+    "http"
+  ],
+  "author": "Pedro Mariano <pmariano@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pmariano/follow/issues"
+  },
+  "homepage": "https://github.com/pmariano/follow",
+  "engine": "node >= v4.1.1",
+  "devDependencies": {
+    "co-mocha": "^1.1.2",
+    "mocha": "^2.3.3",
+    "nock": "^2.13.0"
+  }
+}
